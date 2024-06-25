@@ -38,6 +38,13 @@ Cloud Build private pools help you meet enterprise security and compliance requi
 If you are working entirely in a cloud-native environment, then you’ll want to use Cloud Code to kick off your CI/CD pipeline. Use Cloud Code in your IDE; it comes with tools to help you write, run, and debug cloud-native applications quickly and easily. Then push your code to Cloud Build for the build process, package it in the Artifact Registry, and run it on GKE or Cloud Run. You can get all the visibility and metrics you want for the deployment in Google Cloud’s operations suite. 
 
 
+# Cloud Deploy
+​​Google Cloud Deploy (in preview) is a managed, opinionated continuous delivery service that makes continuous delivery to GKE easier, faster, and more reliable. It has built in security controls and it can be integrated with your existing DevOps ecosystem. 
 
+# Cloud Shell Editor
+
+Cloud Shell Editor, powered by the Eclipse Theia IDE platform, extends Cloud Shell with an online preconfigured cloud development environment that includes: 
+Local emulators for Kubernetes and serverless, and
+Command line tools for working with cloud-native apps
 
 
