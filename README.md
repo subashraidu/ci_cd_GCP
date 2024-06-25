@@ -26,6 +26,13 @@ Blue/green and canary roll-outs
 
 That’s where Cloud Build comes in. 
 
+# Cloud Build
+
+Cloud Build is a fully-managed CI/CD platform that lets you build, test, and deploy across hybrid and multi-cloud environments that include VMs, serverless, Kubernetes, and Firebase. Cloud Build can import source code from Cloud Storage, Cloud Source Repositories, GitHub, or Bitbucket; execute a build to your specifications; and produce artifacts such as Docker container images or Java archives.  
+
+Cloud Build executes your build as a series of build steps, with each step run in a Docker container. A build step can do anything that can be done from a container irrespective of the environment. To perform your tasks, you can either use the supported build steps provided by Cloud Build or write your own build steps. As a part of the build step, Cloud Build deploys the app to a platform of your choice. You also have the ability to perform deep security scans within the CI/CD pipeline using Binary Authorization and ensure only trusted container images are deployed to production. 
+
+Cloud Build private pools help you meet enterprise security and compliance requirements. These are private, dedicated pools of workers that offer greater customization over the build environment, including the ability to access resources in a private network. For instance, you can trigger fully managed DevOps workflows from source code repositories hosted in private networks, including Github Enterprise.
 
 
 
