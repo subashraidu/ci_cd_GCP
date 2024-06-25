@@ -34,5 +34,10 @@ Cloud Build executes your build as a series of build steps, with each step run i
 
 Cloud Build private pools help you meet enterprise security and compliance requirements. These are private, dedicated pools of workers that offer greater customization over the build environment, including the ability to access resources in a private network. For instance, you can trigger fully managed DevOps workflows from source code repositories hosted in private networks, including Github Enterprise.
 
+# Cloud Code
+If you are working entirely in a cloud-native environment, then you’ll want to use Cloud Code to kick off your CI/CD pipeline. Use Cloud Code in your IDE; it comes with tools to help you write, run, and debug cloud-native applications quickly and easily. Then push your code to Cloud Build for the build process, package it in the Artifact Registry, and run it on GKE or Cloud Run. You can get all the visibility and metrics you want for the deployment in Google Cloud’s operations suite. 
+
+
+
 
 
